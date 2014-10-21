@@ -114,7 +114,7 @@ to as **wall-clock times** or just **wall times**.
 The wall time for a function call (represented as a node in the interface) is
 the measure of the **real time** it took for PHP to execute the code, the
 difference between the time at which PHP entered the function and the time at
-which PHP leaved the function.
+which PHP left the function.
 
 Blackfire actually gives you two wall times:
 
