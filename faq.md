@@ -48,6 +48,12 @@ script file; this is the same as any other function call node but for a file.
 When a file only contains some class or function definitions, this cost should
 be minimal.
 
+What do function suffixes like `@1` mean?
+--------------------------------------------
+
+Suffixes like `@1` are appended when functions or methods are invoked recursively - which means they call themselfs.
+The number following the `@` represents the level of nesting.
+
 How to interpret a comparison graph?
 ------------------------------------
 
